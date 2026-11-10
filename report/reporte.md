@@ -209,7 +209,7 @@ La última columna es optimista (se elige el máximo entre muchas configuracione
 
 ## 10. Anexos
 
-- Repositorio: **[ENLACE AL REPOSITORIO]**
+- Repositorio: **https://github.com/TheBizZ-Coder/practica3-clasificador**
 - Conversación con la IA utilizada: carpeta `ia_conversacion/`.
 - Reproducción completa: `python experiments/run_all.py` (semilla global 0 por defecto).
 - Tablas completas por partición: `results/tables/defaults_por_particion.csv`, `tuning_folds.csv`, `complejidad_empirica.csv`.
