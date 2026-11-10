@@ -1,0 +1,7 @@
+dataset,modelo,mejores_parametros,acc_cv_5_folds_(optimista)
+sintetico,K-NN,"{'k': 11, 'metric': 'manhattan', 'weights': 'distance'}",0.8622
+sintetico,SVM,"{'C': 2.3336742079960358, 'gamma': 1.0105405843110133, 'kernel': 'rbf'}",0.8633
+sintetico,MLP,"{'activation': 'tanh', 'alpha': 0.001304907355036239, 'early_stopping': True, 'hidden_layer_sizes': (50,), 'learning_rate_init': 0.05981221901152557}",0.8667
+wine,K-NN,"{'k': 21, 'metric': 'euclidean', 'weights': 'uniform'}",0.9832
+wine,SVM,"{'C': 0.06405419674802731, 'gamma': 0.1843069139534015, 'kernel': 'linear'}",0.9887
+wine,MLP,"{'activation': 'tanh', 'alpha': 0.0036281404040243792, 'early_stopping': False, 'hidden_layer_sizes': (50,), 'learning_rate_init': 0.06823493012435795}",0.9832

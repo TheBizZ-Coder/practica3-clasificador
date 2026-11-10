@@ -1,0 +1,7 @@
+dataset,modelo,acc_defecto,acc_ajustado,mejora,folds_mejor/igual/peor,p_wilcoxon,significativa_(p<0.05)
+sintetico,K-NN,0.8533 ± 0.0362,0.8589 ± 0.0348,0.0056,6/1/3,0.3438,no
+sintetico,SVM,0.8600 ± 0.0410,0.8600 ± 0.0378,-0.0,4/3/3,0.9375,no
+sintetico,MLP,0.8567 ± 0.0361,0.8556 ± 0.0367,-0.0011,3/4/3,0.9375,no
+wine,K-NN,0.9608 ± 0.0271,0.9608 ± 0.0377,0.0,1/8/1,1.0,no
+wine,SVM,0.9830 ± 0.0274,0.9886 ± 0.0241,0.0056,1/9/0,1.0,no
+wine,MLP,0.9778 ± 0.0287,0.9833 ± 0.0268,0.0056,1/9/0,1.0,no
