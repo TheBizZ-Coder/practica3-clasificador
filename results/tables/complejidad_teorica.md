@@ -1,0 +1,8 @@
+| Modelo                   | Entrenamiento          | Predicción           | Memoria   | Comentario                                                                                    |
+|:-------------------------|:-----------------------|:---------------------|:----------|:----------------------------------------------------------------------------------------------|
+| Distancia Mínima         | O(n·d)                 | O(m·c·d)             | O(c·d)    | Entrenar = calcular c medias; predecir = distancia a c centroides.                            |
+| 1-NN                     | O(n·d) (solo almacena) | O(m·n·d)             | O(n·d)    | Compara cada punto de prueba contra los n de entrenamiento.                                   |
+| K-NN                     | O(n·d) (solo almacena) | O(m·n·d + m·n·log k) | O(n·d)    | Igual que 1-NN más la selección de los k menores (nuestra versión ordena todo: O(m·n·log n)). |
+| Naive Bayes              | O(n·d)                 | O(m·c·d)             | O(c·d)    | Media y varianza por clase y rasgo; predecir evalúa c·d gaussianas.                           |
+| SVM (kernel RBF, libsvm) | entre O(n²·d) y O(n³)  | O(m·n_sv·d)          | O(n_sv·d) | Resuelve un problema cuadrático; la predicción depende de los vectores de soporte.            |
+| MLP                      | O(T·n·W)               | O(m·W)               | O(W)      | Cada época recorre los n datos con coste proporcional a W (propagación + retropropagación).   |

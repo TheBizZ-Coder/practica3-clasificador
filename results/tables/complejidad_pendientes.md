@@ -1,0 +1,26 @@
+| variable   | modelo           | etapa   |   pendiente_todos |   pendiente_mitad_superior | pendiente_teorica   |
+|:-----------|:-----------------|:--------|------------------:|---------------------------:|:--------------------|
+| n          | Distancia Mínima | fit     |             0.501 |                      0.919 | 1                   |
+| n          | Distancia Mínima | predict |             0.106 |                      0.374 | 0                   |
+| n          | 1-NN             | fit     |             0.012 |                     -0.032 | 1                   |
+| n          | 1-NN             | predict |             1.144 |                      1.095 | 1                   |
+| n          | K-NN             | fit     |             0.183 |                      0.579 | 1                   |
+| n          | K-NN             | predict |             1.118 |                      1.219 | 1                   |
+| n          | Naive Bayes      | fit     |             0.378 |                      0.772 | 1                   |
+| n          | Naive Bayes      | predict |             0.063 |                      0.034 | 0                   |
+| n          | SVM              | fit     |             1.815 |                      1.993 | 2 a 3               |
+| n          | SVM              | predict |             0.953 |                      1.053 | 1                   |
+| n          | MLP              | fit     |             0.985 |                      1.031 | 1                   |
+| n          | MLP              | predict |             0.095 |                      0.06  | 0                   |
+| d          | Distancia Mínima | fit     |             0.329 |                      0.513 | 1                   |
+| d          | Distancia Mínima | predict |             0.402 |                      0.662 | 1                   |
+| d          | 1-NN             | fit     |             0.144 |                      0.308 | 1                   |
+| d          | 1-NN             | predict |             0.034 |                      0.087 | 1                   |
+| d          | K-NN             | fit     |             0.133 |                      0.245 | 1                   |
+| d          | K-NN             | predict |             0.016 |                      0.015 | 1                   |
+| d          | Naive Bayes      | fit     |             0.35  |                      0.7   | 1                   |
+| d          | Naive Bayes      | predict |             0.571 |                      1.119 | 1                   |
+| d          | SVM              | fit     |             0.617 |                      0.698 | 1                   |
+| d          | SVM              | predict |             0.467 |                      0.353 | 1                   |
+| d          | MLP              | fit     |             0.237 |                      0.351 | 1                   |
+| d          | MLP              | predict |             0.129 |                      0.038 | 1                   |
